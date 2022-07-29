@@ -182,4 +182,11 @@ header {
   font-weight: normal;
 }
 
+/* Tambahkan CSS untuk message ketika diklik */
+.message:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
 
