@@ -113,6 +113,8 @@ header {
   height: 500px;
   padding-bottom: 80px;
   background-color: #f7f7f7;
+  /* Ubah property text-align ke center */
+  text-align: center;
 }
 
 /* Tambahkan CSS untuk heading */
@@ -131,6 +133,27 @@ header {
 .lesson{
   float: left;
   width: 25%;
+}
+
+/* Tambahkan CSS untuk lesson-icon */
+.lesson-icon{
+  position: relative;
+}
+
+/* Tambahkan CSS untuk tag <p> di dalam lesson-icon */
+.lesson-icon p{
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents{
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  color: #b3aeb5;
 }
 
 
